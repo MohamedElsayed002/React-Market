@@ -2,13 +2,13 @@
 import '../../css/Filter/Filter.css'
 
 
-const Filter = ({handleFilterBySize , size , sort , handleSortByOrder}) => {
+const Filter = ({handleFilterBySize , size , sort , handleSortByOrder , products}) => {
 
 
     return (
         <div className="filter-wrapper">
             <h2 className="filter-title">Filter</h2>
-            <div className="num-of-products">Number of product 4</div>
+            <div className="num-of-products">Number of product {products.length}</div>
             <div className="filter-by-size">
                 <span>Filter</span>
                 <select value={size} onChange={handleFilterBySize} className="filter-select">
