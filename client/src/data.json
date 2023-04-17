@@ -1,0 +1,48 @@
+[
+    {
+        "id" : "id1",
+        "title" : "computer",
+        "image" : "../images/image1.jpg",
+        "desc" : "this is product 1",
+        "price" : 19,
+        "sizes" : ["S","M"]
+    },
+    {
+        "id" : "id2",
+        "title" : "computer",
+        "image" : "../images/image1.jpg",
+        "desc" : "this is product 1",
+        "price" : 19,
+        "sizes" : ["XL","L"]
+    },
+    {
+        "id" : "id3",
+        "title" : "computer",
+        "image" : "../images/image1.jpg",
+        "desc" : "this is product 1",
+        "price" : 19,
+        "sizes" : ["S","X"]
+    },
+    {
+        "id" : "id4",
+        "title" : "computer",
+        "image" : "../images/image1.jpg",
+        "desc" : "this is product 1",
+        "price" : 19,
+        "sizes" : ["XXL"]
+    },    {
+        "id" : "id5",
+        "title" : "computer",
+        "image" : "../images/image1.jpg",
+        "desc" : "this is product 1",
+        "price" : 19,
+        "sizes" : ["S","M"]
+    },    {
+        "id" : "id6",
+        "title" : "computer",
+        "image" : "../images/image1.jpg",
+        "desc" : "this is product 1",
+        "price" : 19,
+        "sizes" : ["S","M"]
+    }
+]
