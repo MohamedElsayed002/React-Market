@@ -27,6 +27,15 @@ main {
   grid-area: main;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
+.productsEl {
+  width: 68%;
+}
 
-
+.filterEl {
+  width: 30%;
+}
