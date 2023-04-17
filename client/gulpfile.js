@@ -8,5 +8,5 @@ import sass from 'sass'
 let sassGulp = gulpSass(sass)
 
 gulp.task('sass' , async function () {
-    gulp.src('./src/index.scss').pipe(sassGulp()).pipe(gulp.dest('./src/css'))
+    gulp.src('./src/components/**/*.scss').pipe(sassGulp()).pipe(gulp.dest('./src/css'))
 })

@@ -1,9 +1,16 @@
-import './App.css'
-import image1 from '../images/image1.jpg'
+import Header from "./components/Header/Header"
 function App() {
 
   return (
-    <img width={'200px'} src={image1} alt="photo"  />
+    <div className="App">
+      <div className="layout">
+        <Header/>
+        <main>d</main>
+        <footer>
+          Footer
+        </footer>
+      </div>
+    </div>
   )
 }
 
